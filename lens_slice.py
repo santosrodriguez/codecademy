@@ -4,6 +4,8 @@ toppings = ["pepperoni", "pineapple", "cheese", "sausage", "olives", "anchovies"
 prices = [2, 6, 1, 3, 2, 7, 2]
 
 num_two_dollar_slices = prices.count(2)
+
+# Get the number of toppings and assign it to a new variable
 num_pizzas = len(toppings)
 
 print(num_two_dollar_slices)
@@ -16,9 +18,11 @@ pizza_and_prices.append([2.5, "peppers"])
 
 pizza_and_prices.sort()
 
+# Remove the last element in the list
 pizza_and_prices.pop(-1)
 priciest_pizza = pizza_and_prices[-1]
 cheapest_pizza = pizza_and_prices[0]
+# Assign from the fist to the fourth element (0-3)
 three_cheapest = pizza_and_prices[:3]
 
 print(pizza_and_prices)

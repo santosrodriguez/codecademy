@@ -11,6 +11,8 @@ elif weight <= 10:
 else:
   cost = weight * 4.75 + 20.00
 
+
+# Need to convert the float to a string in order to concatenate it. 
 print("Ground Shipping Cost: " + str(cost))
 print("Premium Ground Shipping Cost: " + str(premium_ground))
 
