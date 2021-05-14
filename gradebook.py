@@ -9,7 +9,7 @@ grades = [98, 97, 85, 88]
 
 gradebook = [["phyics", 98], ["calculus", 97], ["poetry", 85], ["history", 88]]
 
-# Add the computer sciense list to the end of the gradebook list
+# Add the computer science list to the end of the gradebook list
 gradebook.append(["computer science", 100])
 # Add new list to the end of the gradebook list
 gradebook.append(["visual arts", 93])
