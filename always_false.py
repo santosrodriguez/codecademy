@@ -13,7 +13,7 @@ def always_false(num):
   else:
     return False
 
-
+always_false(3)
 # Uncomment these function calls to test your always_false function:
 print(always_false(0))
 # should print False
